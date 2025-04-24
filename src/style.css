@@ -1,5 +1,27 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;     
+}
+
+.zona-excusa{
+    background-color: grey;
+    border-radius: 50px;
+    box-shadow: 0px 2px 50px white;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 25px;
 }
